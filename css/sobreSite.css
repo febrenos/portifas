@@ -1,0 +1,75 @@
+h3{
+    margin-top: 20px;
+}
+/* typing */
+.line{
+    border-right: 2px solid var(--txt);
+    color: var(--txt);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* display: flex;
+    text-align: center; */
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.txt{
+    font-family: 'Source Sans Pro';
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    margin: -110px 0 0 -100px;
+    box-sizing: border-box;
+}
+.typing-animation{
+    animation: blinkCursor 500ms steps(40) infinite normal,
+                typing 2s steps(40) 1s normal both;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 197px;
+    }
+}
+@keyframes blinkCursor{
+    form{
+        border-right-color: var(--txt);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+.align{
+    justify-content: center;
+    flex-direction: column;
+}
+.infosite{
+    background: var(--bg-txt);
+    color: var(--txt);
+    border-radius: 20px;
+    opacity: .8;
+    padding: 3% 10px;
+    text-align: center;
+    margin-top: -30px;
+}
+/* .infosite p{
+    padding: 0 80px 0 80px;
+} */
+.design{
+    text-align: center;
+}
+.iconbox img{
+    margin: 20px 5px 0 5px;
+    width: 65px;
+    justify-content: space-between 20px;
+    align-items: baseline;
+    border-radius: 10px;
+}
+.iconboxc img{
+    width: 50px;
+    margin: 20px 12px 0 12px;
+    border-radius: 50px;
+}

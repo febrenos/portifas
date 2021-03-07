@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/logo.png" rel="icon" type="image/x-icon" />
+    <!-- icons menu -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <!-- Particles -->
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    <!-- Particles -->
+    <nav id="menu">
+            <a class="invisible" href="#" onclick="fecharMenu()"></a>
+
+            <!--menu icons-->
+            <div class="home">
+                <a href="home.html">
+                    <i class='bx bx-grid-alt nav__icon'></i>
+                    <span class="home">Home</span>
+                </a>
+            </div>
+
+            <div class="sobresite">
+                <a href="sobreSite.html">
+                    <i class='bx bx-user nav__icon' ></i>
+                    <span class="sobresite">Sobre site</span>
+                </a>
+            </div>
+
+            <div class="contato">
+                <a href="contato.html">
+                    <i class='bx bx-message-rounded nav__icon'></i>
+                    <span class="contato">Contato</span>
+                </a>
+            </div>
+
+            <div class="aparencia">
+                <a href="#">
+                        <input id="aparenciab" type="checkbox" value="on" style="width: 14px; height: 14px;"></input>
+                    <span id="aparenciap">Aparência</span>
+                </a>
+            </div>
+    </nav>
+
+    <main id="content">
+        <div class="align">
+            <div class="box">
+                <div class="img">
+                    <img src="img/felipe.png" alt="">
+                </div>
+                <h3>Felipe Sugisawa</h3>
+                <div class="pbox">
+                    <p>Full Stack Developer</p>
+                    <p>São Paulo, Penha</p>
+                </div>
+                <div class="iconbox">
+                        <img class="icon1" src="img/js.png" alt="">
+                        <img class="icon2" src="img/js.png" alt="">
+                        <img class="icon3" src="img/js.png" alt="">
+                        <img class="icon4" src="img/js.png" alt="">
+                </div>
+
+                <div class="mais">
+                    <a href="#" onclick="alerta()">+ Sobre</a>
+                </div>
+                <div class="button">
+                    <a href="./pdf/CV Felipe Sugisawa Altran Port.pdf">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Curriculo
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="h2formacao">
+                <h2>Formação Acadêmica</h2>
+            </div>
+            <div class="formacao">
+                <div class="imgformacao">
+                    <img src="img/senaibg.png" alt="">
+                    <img src="img/rocketseatbg.png" alt="">
+                </div>
+            </div>
+            <div class="softskills">
+                <h2>Soft Skills</h2>
+            </div>
+            <div class="titulog">
+                <h1>Personalidade Protagonista</h1>
+                <h1>ENFJ-A</h1>
+        </div>
+            <div class="boxg">
+                <section class="lineg">
+                    <div class="subtitleg">
+                        <div class="alignsub">Extrovertido</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" style="width: 40.5%;" title="19% introvertido"><h6>81%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Intuitivo</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" style="width: 27.5%;" title="45% observador"><h6>55%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Sentimento</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" style="width: 28%;" title="44% extrovertido"><h6>56%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Julgador</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" style="width: 36%;" title="28% explorador"><h6>72%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Assertivo</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" style="width: 28%;" title="44% Cautuloso"><h6>72%</h6></div>
+                    </div>
+                </section>
+            </div>
+            <div class="infog">
+                    <h4>Sociável</h4>
+                    <h1>87%</h1>
+                    <a href="#" onclick="softskill()">Teste sua personalidade</a>
+            </div>
+                <h2>Projetos Desenvolvidos</h2>
+            <div class="projects">
+                <div class="project1">
+                    <a href="#" onclick="project1()"><img src="./img/inovaBranco.png"></a>
+                </div>
+                <h4>Back-end SQL e C# | Front-end react typescript, bootstrap</h4>
+                <p>O <a href="https://www.sp.senai.br/">SENAI</a> possui um processo de Contratacao 
+                    porem essa forma nao eh tao eficaz. A inova promete entregar aos usuarios da 
+                    plataforma uma experiencia inovadora aumentando a facilicade de emprego de 
+                    forma automatizada.</p>
+            </div>
+            <div class="projects">
+                <div class="project2">
+                    <a href="#" onclick="project2()"><img src="./img/proffy.png"></a>
+                </div>
+                <h4>Back-end: Js Db | Front-end: react typescript</h4>
+                <p>A <a href="https://rocketseat.com.br/">Rocket Seat</a> em meio a situação dificil 
+                    que estamos vivendo Surgiu o Proffy que visa facilitar o aprendizado
+                    de todos alunos de maneira pratica e organizada, possuindo cadastros, 
+                    organização de aulas com professores e alunos.</p>
+            </div>
+            <div class="projects">
+                <div class="project3">
+                    <a href="#" onclick="project3()"><img src="./img/filmescolection.png"></a>
+                </div>
+                <h4>Back-end: SQL C# | Front-end: react typescript</h4>
+                <p>O <a href="https://www.sp.senai.br/">SENAI</a> analisou uma corretora de filmes
+                    com o intuito de facilitar o acesso de clientes, gerenciado pelo lojista sendo
+                    o administrador criamos o Filmes Collection</p>
+            </div>
+            <div class="projects">
+                <div class="project4">
+                    <a href="#" onclick="project4()"><img src="./img/roletop.png"></a>
+                </div>
+                <h4>Back-end: C# .Net MVC | Front-end: html css</h4>
+                <p>Uma empresa desejava organizar eventos porém atendentes não bastavam, em busca de uma maior
+                    praticidade desenvolvi juntamente com o apoio do SENAI o site que solucionasse o problema 
+                    com cadastro, login, dashboard está esperando o que? marque o seu rolê!</p>
+            </div>
+            <div class="projects">
+                <div class="project5">
+                    <a href="#" onclick="project5()"><img src="./img/mcbonalds.png"></a>
+                </div>
+                <h4>Back-end: C# .Net MVC | Front-end: html css</h4>
+                <p>surgiu da ideia de automatizar a venda de hamburguers e sobremesas de um restaurante, o site
+                    foi construído juntamente com os professores do SENAI, possui login, cadastro,
+                    dashboard, mecanismo de compra.</p>
+            </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2021 Lipeckz. Todos os direitos reservados.</p>
+            <p>felipesugisawa1@gmail.com | 55 11 9 6865-1661</p>
+            <p>SP/Penha – Brasil</p>
+        </div>
+    </footer>
+    <!-- action menu -->
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
