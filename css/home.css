@@ -191,7 +191,7 @@ a span:nth-child(4){
 }
 .boxg h6{
     font-size: 15px;
-    font-weight: 20;
+    /* font-weight: 20; */
     margin-left: 5px;
 }
 .infog{
@@ -204,7 +204,7 @@ a span:nth-child(4){
 .infog h4{
     text-align: center;
     font-size: 30px;
-    font-weight: 30;
+    /* font-weight: 200; */
 }
 
 .lineg {
@@ -237,10 +237,50 @@ a span:nth-child(4){
     background-color: var(--linksline);/*diferent color*/
     color: var(--bg-txt);
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 40px;
     transform: translateY(-50%);
     font-size: 15px;
+}
+/* skroll */
+[data-anime]{
+    opacity: 1;
+    transition: 1s;
+}
+[data-anime="1"]{
+  transform: translate3d(-50px, 0, 0);
+  opacity: 0;
+  transition:  1s;
+  transition-delay: 0s;
+}
+[data-anime="2"]{
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: .3s;
+}
+[data-anime="3"]{
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: .6s;
+}
+[data-anime="4"]{
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: .9s;
+}
+[data-anime="5"]{
+    transform: translate3d(-50px, 0, 0);
+    opacity: 0;
+    transition: 1s;
+    transition-delay: 1.2s;
+}
+
+[data-anime].animate{
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
 
 .projects{
@@ -253,6 +293,7 @@ a span:nth-child(4){
     margin-bottom: 20px;
     width: 150px;
     transition: .5s;
+    transition-delay: .8s;
 }
 .projects h4{
     margin-bottom: 10px;
