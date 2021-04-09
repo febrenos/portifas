@@ -22,7 +22,7 @@ h3{
 }
 .typing-animation{
     animation: blinkCursor 500ms steps(40) infinite normal,
-                typing 2s steps(40) 1s normal both;
+                typing .7s steps(40) .7s normal both;
 }
 
 @keyframes typing{

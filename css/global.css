@@ -11,14 +11,14 @@
     --linksline:  #6E16E2;/*links line color*/
     --linkslineb: #260057;/*links line color buton*/
 
-    /* contact link */
+    /*link icons*/
     --icon1: #0e76a8;
     --icon2: #1DA1F2;
     --icon3: #E1306C;
     --icon4: #000;
 }
 .aparenciab:root{
-    --bg:         #cecece;/*background Web site*/
+    --bg:         #c3c6e0;/*background Web site*/
     --bg-txt:     #8B898F;/*background in txt*/
     --txt:        #191622;/*all txt*/
     --menu:       #191622;/*side bar hover*/
@@ -147,7 +147,7 @@ nav a:hover #aparenciap{
     color: transparent;
     position: absolute;
     left: 20px;
-    background-color: #6E16E2;
+    background-color: var(--linksline);
     /* border: 380px 120px 380px 120px; */
 }
 main{

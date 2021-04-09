@@ -73,24 +73,17 @@ function linkGit() {
     window.open('https://github.com/felipesugisawa');
 }
 
-function mais(){
-    bootbox.alert("Hello World");
-    $('#abrir').onclick(function(event){
-        bootbox.alert('Oi, eu sou um alert.', function(){
-        bootbox.alert('Oi eu sou um alert chamado apartir de um callback de outro alert.');
-        });
-    });
-}
+// function mais(){
+//     bootbox.alert("Hello World");
+//     $('#abrir').onclick(function(event){
+//         bootbox.alert('Oi, eu sou um alert.', function(){
+//         bootbox.alert('Oi eu sou um alert chamado apartir de um callback de outro alert.');
+//         });
+//     });
+// }
 
-//Change color
+    //Change color
     // document.documentElement.style.setProperty('--solid', '#191622',);
-    // document.documentElement.style.setProperty('solidp', '#a0a0a0');
-    // document.documentElement.style.setProperty('--bg', '#cecece');
-    // document.documentElement.style.setProperty('--txt', '#191622');
-    // document.documentElement.style.setProperty('--bg-txt', '#8B898F');
-    // document.documentElement.style.setProperty('--links', '#ececec');
-    // document.documentElement.style.setProperty('--linksh', '#fff');
-    // document.documentElement.style.setProperty('--menu', '#191622');
 
     //add htmml
     const $html = document.querySelector('html')
